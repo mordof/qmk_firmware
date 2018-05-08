@@ -1,3 +1,29 @@
+echo "Sleeping for 10 seconds."
+echo "Set your keyboard to flash mode now."
+
+echo "10"
+sleep 1
+echo "9"
+sleep 1
+echo "8"
+sleep 1
+echo "7"
+sleep 1
+echo "6"
+sleep 1
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+
+echo "Commencing..."
+
 make planck/rev4:mordof
 dfu-programmer atmega32u4 erase
 dfu-programmer atmega32u4 flash planck_rev4_mordof.hex
